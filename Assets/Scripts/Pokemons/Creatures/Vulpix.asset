@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192d89e977ad1a24fa413550e92e31d3, type: 3}
+  m_Name: Vulpix
+  m_EditorClassIdentifier: 
+  nombre: Vulpix de Alola
+  "descripci\xF3n": 
+  IsMale: 0
+  IsShiny: 0
+  frontSprite: {fileID: 21300000, guid: 231b76f5a25cc94418ab29d99e411a4c, type: 3}
+  backSprite: {fileID: 21300000, guid: d13452fee31a480458d1ce2b5bc5bc0d, type: 3}
+  type1: 9
+  type2: 0
+  naturaleza: 18
+  maxHp: 38
+  ataque: 41
+  defensa: 40
+  ataqueEspecial: 50
+  defensaEspecial: 65
+  velocidad: 65
+  IvsHp: 0
+  EvsHp: 0
+  IvsAtaque: 0
+  EvsAtaque: 0
+  IvsDefensa: 0
+  EvsDefensa: 0
+  IvsAtaqueSp: 0
+  EvsAtaqueSp: 0
+  IvsDefensaSp: 0
+  EvsDefensaSp: 0
+  IvsVelocidad: 0
+  EvsVelocidad: 0
+  movimientosAprendibles:
+  - movimientoBase: {fileID: 11400000, guid: 3dca15354cf89a14d9d1d651056f8bdb, type: 2}
+    level: 1
+  - movimientoBase: {fileID: 11400000, guid: 531dc04624c1f03479bfc0412708ba3a, type: 2}
+    level: 1
+  - movimientoBase: {fileID: 11400000, guid: 4022faa402cea3748b288d84abb8cc5c, type: 2}
+    level: 1

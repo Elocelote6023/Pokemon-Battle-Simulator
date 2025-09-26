@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ccc0865f9bc264ebed50c5e2be1f05, type: 3}
+  m_Name: Picadura
+  m_EditorClassIdentifier: 
+  nombre: Picadura
+  "descripci\xF3n": "Picadura causa da\xF1o al objetivo y si este lleva una baya
+    equipada, el atacante se la comer\xE1 y se ver\xE1 afectado por los efectos de
+    esa baya. El efecto roba bayas no sirve si el objetivo est\xE1 detr\xE1s de un
+    sustituto o si posee la habilidad viscosidad. Las bayas Yecana y Jaboca se activan
+    antes de poder ser robadas. El objetivo puede recuperar la baya que perdi\xF3
+    si usa reciclaje. Si un Pok\xE9mon con zoquete roba una baya usando picadura,
+    se la comer\xE1, pero no obtendr\xE1 sus efectos.\n\nEste contenido proviene
+    de wikidex.net, y debe darse atribuci\xF3n a sus autores, tal como especifica
+    la licencia.\nSe proh\xEDbe su uso a PlagioDex (el wiki de FANDOOM), por copiar
+    reiteradamente sin dar atribuci\xF3n"
+  type: 3
+  "da\xF1o": 60
+  "precisi\xF3n": 100
+  pP: 20
+  FisicoEspecialEstado: 1
+  effects:
+    boosts: []
+    status: 0
+  target: 0

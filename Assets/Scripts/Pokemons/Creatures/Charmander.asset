@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192d89e977ad1a24fa413550e92e31d3, type: 3}
+  m_Name: Charmander
+  m_EditorClassIdentifier: 
+  nombre: Charmander
+  "descripci\xF3n": 
+  IsMale: 1
+  IsShiny: 0
+  frontSprite: {fileID: 21300000, guid: 74c2e9aa76df45b48ae08094314087f1, type: 3}
+  backSprite: {fileID: 21300000, guid: 592649942539c854d88cfc1c9c553e0c, type: 3}
+  type1: 7
+  type2: 0
+  naturaleza: 18
+  maxHp: 39
+  ataque: 52
+  defensa: 43
+  ataqueEspecial: 60
+  defensaEspecial: 50
+  velocidad: 65
+  IvsHp: 0
+  EvsHp: 0
+  IvsAtaque: 0
+  EvsAtaque: 0
+  IvsDefensa: 0
+  EvsDefensa: 0
+  IvsAtaqueSp: 0
+  EvsAtaqueSp: 0
+  IvsDefensaSp: 0
+  EvsDefensaSp: 0
+  IvsVelocidad: 0
+  EvsVelocidad: 0
+  movimientosAprendibles:
+  - movimientoBase: {fileID: 11400000, guid: c3291125a6d69f1418fa4d0a1adda65f, type: 2}
+    level: 1
+  - movimientoBase: {fileID: 11400000, guid: c7ec072cd73d31748bbc0b03d0fb257c, type: 2}
+    level: 1
+  - movimientoBase: {fileID: 11400000, guid: e79f176ef7c13d742bd3037006f3b3b4, type: 2}
+    level: 4
+  - movimientoBase: {fileID: 11400000, guid: 2d4daba44de576d419a87418bd5e5c40, type: 2}
+    level: 4

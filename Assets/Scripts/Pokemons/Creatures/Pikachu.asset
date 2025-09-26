@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192d89e977ad1a24fa413550e92e31d3, type: 3}
+  m_Name: Pikachu
+  m_EditorClassIdentifier: 
+  nombre: Pikachu
+  "descripci\xF3n": pakichu
+  IsMale: 0
+  IsShiny: 0
+  frontSprite: {fileID: 21300000, guid: 6cb0a2281b2c61e4cadfd42fa0070c33, type: 3}
+  backSprite: {fileID: 21300000, guid: a1bc6fe23c93a0f40b95261887896608, type: 3}
+  type1: 5
+  type2: 0
+  naturaleza: 14
+  maxHp: 35
+  ataque: 55
+  defensa: 40
+  ataqueEspecial: 50
+  defensaEspecial: 50
+  velocidad: 90
+  IvsHp: 0
+  EvsHp: 0
+  IvsAtaque: 0
+  EvsAtaque: 0
+  IvsDefensa: 0
+  EvsDefensa: 0
+  IvsAtaqueSp: 0
+  EvsAtaqueSp: 0
+  IvsDefensaSp: 0
+  EvsDefensaSp: 0
+  IvsVelocidad: 0
+  EvsVelocidad: 0
+  movimientosAprendibles:
+  - movimientoBase: {fileID: 11400000, guid: 5b88f13042e3bfb48842e273e244f240, type: 2}
+    level: 1
+  - movimientoBase: {fileID: 11400000, guid: c7ec072cd73d31748bbc0b03d0fb257c, type: 2}
+    level: 1
+  - movimientoBase: {fileID: 11400000, guid: 629c592f45b469844b6444f07134cd93, type: 2}
+    level: 4
+  - movimientoBase: {fileID: 11400000, guid: 5bb9fd6b43749f243b57e28edc68ecb4, type: 2}
+    level: 4
